@@ -35,18 +35,6 @@ class Solution:
         return min_val, max_val
 
 ```
-Complexity Analysis
-Time Complexity: O(n), where n is the number of elements in the array (we go through the array once).
-Space Complexity: O(1), as we are using only a constant amount of extra space.
-
-
-Test Cases
-Test Case 1:
-Input: [3, 2, 1, 56, 10000, 167]
-Output: [1, 10000]
-Test Case 2:
-Input: [1, 345, 234, 21, 56789]
-Output: [1, 56789]
-Test Case 3:
-Input: [56789]
-Output: [56789, 56789] (Single element case where min and max are the same)
+### Complexity Analysis
+1. Time Complexity: O(n), where n is the number of elements in the array (we go through the array once).
+2. Space Complexity: O(1), as we are using only a constant amount of extra space.
