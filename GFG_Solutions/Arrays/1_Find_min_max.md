@@ -34,7 +34,7 @@ class Solution:
         
         return min_val, max_val
 
-
+```
 Complexity Analysis
 Time Complexity: O(n), where n is the number of elements in the array (we go through the array once).
 Space Complexity: O(1), as we are using only a constant amount of extra space.
